@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: statistics, machine learning, microbiome, nonparametric regression, Cornell, biostatistics
 lang: en
-icon: website_logo_3.png # swap for your own emoji or an image filename in /assets/img/
+icon: normal_distribution_logo.png # swap for your own emoji or an image filename in /assets/img/
 
 url: https://sithijamanage.github.io
 baseurl: ""
