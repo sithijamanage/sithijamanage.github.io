@@ -1,81 +1,54 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: permaBrioche
+description: confounding-aware PERMANOVA and Hájek-based effect-size estimation for repeated-measures microbiome data
+img: assets/img/permaBriocheLogo.png
 importance: 2
-category: work
-giscus_comments: true
+category: R packages
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**permaBrioche** is a statistical framework for confounding-aware PERMANOVA and interpretable distance-based effect-size estimation in repeated-measures and other blocked study designs, developed as part of the BioBakery ecosystem at Harvard's Huttenhower Lab. It's particularly motivated by microbiome and other high-dimensional biological data, where subject-level clustering and longitudinal sampling are common.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="row align-items-center mt-3 mb-3">
+    <div class="col-sm-2" style="max-width: 80px;">
+        {% include figure.liquid loading="eager" path="assets/img/thchan_logo.png" 
+        title="BioBakery / Huttenhower Lab" class="img-fluid rounded" %}
+    </div>
+    <div class="col-sm-9">
+        <small>Developed as part of the <a href="https://github.com/biobakery">BioBakery ecosystem</a> 
+        at the <a href="https://huttenhower.sph.harvard.edu/">Huttenhower Lab</a>, 
+        Department of Biostatistics, Harvard T.H. Chan School of Public Health.</small>
+    </div>
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+permaBrioche addresses two well-known limitations of standard PERMANOVA: invalid permutation schemes under subject-level confounding (e.g. longitudinal designs), and upward bias and poor interpretability of the PERMANOVA $$R^2$$ effect size.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-2" style="max-width: 80px;">
+        {% include figure.liquid loading="eager" path="assets/img/permaBriocheLogo.png" title="permaBrioche logo" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The package implements design-aware permutation schemes for invariant and variant covariates, a null-centered $$R^2$$ for bias-corrected variance explanation, a Hájek-based distance effect size with direct geometric interpretation, and an optional location–dispersion decomposition in the Euclidean case.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In the Euclidean case, the Hájek effect decomposes as:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+$$
+\tau = \tau_{\text{location}} + \tau_{\text{dispersion}}
+$$
 
-{% raw %}
+where location captures mean (centroid) shift and dispersion captures change in within-group variability — distinguishing systematic shifts from increased heterogeneity.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+You can install the package directly from GitHub:
+
+```r
+library(devtools)
+
+devtools::install_github(
+  "biobakery/permabrioche",
+  build_vignettes = TRUE
+)
 ```
 
-{% endraw %}
+Source code, full vignette walkthroughs, and documentation are available on [GitHub](https://github.com/biobakery/permaBrioche).

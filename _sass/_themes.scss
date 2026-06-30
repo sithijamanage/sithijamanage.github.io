@@ -1,0 +1,66 @@
+:root {
+  color-scheme: light;
+  --global-bg-color: #faf6f0;
+  --global-code-bg-color: rgba(120, 72, 41, 0.06);
+  --global-text-color: #3e2c23;
+  --global-text-color-light: #8a7464;
+  --global-theme-color: #a0522d;
+  --global-hover-color: #8b4513;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #3e2c23;
+  --global-footer-text-color: #e8dfd5;
+  --global-footer-link-color: #f0e6d8;
+  --global-distill-app-color: #8a7464;
+  --global-divider-color: rgba(94, 64, 43, 0.15);
+  --global-card-bg-color: #f3ead e;
+  --global-highlight-color: #7b3f00;
+  --global-back-to-top-bg-color: rgba(62, 44, 35, 0.4);
+  --global-back-to-top-text-color: #ffffff;
+  --global-newsletter-bg-color: #f3eade;
+  --global-newsletter-text-color: #3e2c23;
+  --global-tip-block: #6b8e4e;
+  --global-tip-block-bg: #e8f0e0;
+  --global-tip-block-text: #3a5a28;
+  --global-tip-block-title: #4a6e34;
+  --global-warning-block: #c98a2c;
+  --global-warning-block-bg: #fbf0dd;
+  --global-warning-block-text: #7a5318;
+  --global-warning-block-title: #936121;
+  --global-danger-block: #a13d2e;
+  --global-danger-block-bg: #f5e0db;
+  --global-danger-block-text: #6b2418;
+  --global-danger-block-title: #a13d2e;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --global-bg-color: #211711;
+  --global-code-bg-color: #382a20;
+  --global-text-color: #ead9c8;
+  --global-text-color-light: #ab9684;
+  --global-theme-color: #d2895a;
+  --global-hover-color: #e0a878;
+  --global-hover-text-color: #211711;
+  --global-footer-bg-color: #ead9c8;
+  --global-footer-text-color: #211711;
+  --global-footer-link-color: #2c1d12;
+  --global-distill-app-color: #ead9c8;
+  --global-divider-color: #4a382a;
+  --global-card-bg-color: #2c1f17;
+  --global-back-to-top-bg-color: rgba(234, 217, 200, 0.5);
+  --global-back-to-top-text-color: #211711;
+  --global-newsletter-bg-color: #2c1f17;
+  --global-newsletter-text-color: #ead9c8;
+  --global-tip-block: #6b8e4e;
+  --global-tip-block-bg: #2c3a1f;
+  --global-tip-block-text: #c3e0aa;
+  --global-tip-block-title: #d9f0c2;
+  --global-warning-block: #c98a2c;
+  --global-warning-block-bg: #4a3613;
+  --global-warning-block-text: #f0d49d;
+  --global-warning-block-title: #f7e3b8;
+  --global-danger-block: #c2604a;
+  --global-danger-block-bg: #4a261c;
+  --global-danger-block-text: #f0baa9;
+  --global-danger-block-title: #f5d2c5;
+}

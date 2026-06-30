@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: software
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: '"The best thing about being a statistician is that you get to play in everyone''s backyard." — John Tukey'
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [R packages]
 horizontal: false
 ---
 
