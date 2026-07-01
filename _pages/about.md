@@ -2,8 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, Department of Statistics and Data Science, Cornell University
-
+subtitle: >
+  (Sih-thee-jah Mah-nuh-gay)<br>
+  PhD Candidate, Department of Statistics and Data Science, Cornell University
+  
 profile:
   align: right
   image: HeadshotCropped.png
