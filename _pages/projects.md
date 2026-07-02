@@ -1,6 +1,6 @@
 ---
 layout: page
-title: software
+title: software 📟
 permalink: /projects/
 description: '"The best thing about being a statistician is that you get to play in everyone''s backyard." — John Tukey'
 nav: true

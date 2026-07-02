@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: about 📚
 permalink: /
 subtitle: >
   (Sih-thee-jah Mah-nuh-gay)<br>

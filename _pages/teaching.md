@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: teaching 🧮
 description: Teaching experience in statistics, machine learning, and data science.
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
 ## Cornell Tech — Break Through Tech AI Program
