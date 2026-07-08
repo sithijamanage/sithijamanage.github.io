@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate in the [Department of Statistics and Data Science](https://stat.cornell.edu) at Cornell University, advised by [Martin Wells](https://stat.cornell.edu/people/martin-t-wells) and [Sam Wang](https://stat.cornell.edu/people/y-samuel-wang). I am currently a visiting graduate student researcher in the [Department of Biostatistics](https://www.hsph.harvard.edu/biostatistics/) at Harvard University, working with [Curtis Huttenhower](https://huttenhower.sph.harvard.edu/).
+I am a PhD candidate in the [Department of Statistics and Data Science](https://stat.cornell.edu) at Cornell University, advised by [Martin Wells](https://stat.cornell.edu/people/martin-t-wells) and [Sam Wang](https://stat.cornell.edu/people/y-samuel-wang). I am also currently a visiting graduate student researcher in the [Department of Biostatistics](https://www.hsph.harvard.edu/biostatistics/) at Harvard University, working with [Curtis Huttenhower](https://huttenhower.sph.harvard.edu/).
 
 My research centers on nonparametric regression and statistical methods for microbiome data, with broader interests in causal inference and statistical machine learning. I am really excited about my recent work, which includes tree-guided feature aggregation for kernel regression and confounding-aware permutation methods for PERMANOVA in microbiome analysis. I have also recently started a project on improving group relative policy optimization (GRPO) for large language models using statistically-grounded ideas from reinforcement learning with verifiable rewards (RLVR).
 
