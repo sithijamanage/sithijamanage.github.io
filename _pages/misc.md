@@ -33,6 +33,21 @@ Newer videos are at the top — scroll down to see older ones.
 
 <div class="video-entry">
   <div class="video-thumb">
+    <a href="https://www.youtube.com/watch?v=CDvsj-G4HXM" target="_blank">
+      <img src="https://img.youtube.com/vi/CDvsj-G4HXM/hqdefault.jpg" alt="
+Day in the Life at an Academic Conference! Cornell PhD">
+    </a>
+  </div>
+  <div class="video-meta">
+    <h5><a href="https://www.youtube.com/watch?v=CDvsj-G4HXM" target="_blank">
+Day in the Life at an Academic Conference! Cornell PhD</a></h5>
+    <p class="date">August 2026</p>
+    <p>I vlogged the ENTIRE day at JSM 2026, where over 6,000 academics gathered in Boston Massachusetts as I try to figure out what exactly makes these events so awesome.</p>
+  </div>
+</div>
+
+<div class="video-entry">
+  <div class="video-thumb">
     <a href="https://www.youtube.com/watch?v=d4Afc07rb4o" target="_blank">
       <img src="https://img.youtube.com/vi/d4Afc07rb4o/hqdefault.jpg" alt="Grad School Application MONTH-BY-MONTH Timeline!">
     </a>
